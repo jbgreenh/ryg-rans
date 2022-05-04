@@ -128,10 +128,11 @@ void SymbolStats::normalize_freqs(uint32_t target_total)
     }
 }
 
-int main()
+int main(int argc, char **argv)
 {
     size_t in_size;
-    uint8_t* in_bytes = read_file("book1", &in_size);
+    uint8_t* in_bytes = read_file(argv[1], &in_size);
+    //uint8_t* in_bytes = read_file("book1", &in_size);
 
     static const uint32_t prob_bits = 14;
     static const uint32_t prob_scale = 1 << prob_bits;
