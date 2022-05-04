@@ -3,4 +3,3 @@ target: exam
 
 cmds:
   - cmd: /exam @@
-    filepath: /book1
