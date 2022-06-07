@@ -1,5 +1,6 @@
-project: jbgreenh/ryg-rans
+project: ryg-rans
 target: exam
 
 cmds:
-  - cmd: /exam @@
+  - cmd: /exam
+    filepath: book1
